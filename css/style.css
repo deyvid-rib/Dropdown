@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(15, 15, 15);
+}
+
+ul{
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+    border: 1px solid cyan;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    padding: 10px;
+    text-decoration: none;
+    color: cyan;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+li a:hover, .drop-down:hover .drop-down-button{
+    color: black;
+    background-color: cyan;
+}
+
+.drop-down-content{
+    position: absolute;
+    background-color: black;
+    display: none;
+}
+
+.drop-down-content a{
+    width: 114px;
+    display: block;
+    text-align: center;
+    border: 1px solid cyan;
+}
+
+.drop-down:hover .drop-down-content{
+    display: block;
+}
+
+#different a{
+    width: 150px;
+}
+
+.autor{
+    background-color: black;
+    border: 1px solid cyan;
+    width: 250px;
+}
+
+img{
+    border: 1px solid cyan;
+    border-radius: 100%;
+    margin-top: 10px;
+    position: relative;
+    left: 75px;
+}
+
+p{
+    color: cyan;
+    text-align: center;
+}
+
+#index{
+    background-color: black;
+    color: orangered;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+}
+
+#index:hover{
+    opacity: 0.5;
+}
